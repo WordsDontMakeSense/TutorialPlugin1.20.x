@@ -4,3 +4,11 @@ main: me.nowordsmakesense.tutorialplugin.TutorialPlugin
 api-version: 1.20
 authors: [ WordsDontMakeSense ]
 description: This is my tutorial plugin!
+commands:
+  tutorial:
+    usage: /tutorial
+    permission: tutorialplugin.tutorial
+    description: Main Tutorial Plugin Command
+    aliases:
+      - tut
+      - tl
